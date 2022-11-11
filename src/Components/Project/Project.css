@@ -1,0 +1,103 @@
+.project-list{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 25px 0 30px 0;
+    border-radius: 5px;
+    border:3px double #5cdb95da ;
+    box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.project-list:hover{
+    border-color: #1d4e44;
+    border-left: 8px solid #1d4e44;;
+    /* cursor: pointer; */
+    transition-duration: 1.3s;
+}
+
+.title-and-collapse-button{
+    display:flex;
+    justify-content:space-between;
+    margin: 5px;
+}
+
+.project-list-expand{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 25px 0 30px 0;
+    border-radius: 5px;
+    border:3px double #5cdb95da ;
+    box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.project-list-expand:hover{
+    border-color: #1d4e44;
+    border-left: 8px solid #1d4e44;
+    transition-duration: 1.3s;
+}
+
+#dark .project-list-expand:hover{
+    border-color: #418100;
+    border-left: 8px solid #418100;
+}
+#dark .project-list:hover{
+    border-color: #418100;
+    border-left: 8px solid #418100;
+}
+
+
+.tech-used {
+    margin:5px;
+    cursor: pointer;
+}
+
+.tech-used p:hover {
+    background-color: #05110a;
+    transition-duration: 1s;
+}
+
+.tech-used p{
+    background-color: #12522f;
+    color: #edf5e1;
+    border-radius: 50px;
+    width: 130px;
+    padding: 5px;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.demo-button{
+    background-color: greenyellow;
+    width: 100px;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 8px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.demo-button:hover{
+    background-color: #deb500;
+    transition-duration: 1s;
+}
+
+.demo-button a{
+    text-decoration: none;
+    width: 100px;
+    border-radius: 30px;
+    color:  #131411;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description{
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,95 @@
+
+
+.contact-section{
+    height: 1300px;
+    border-radius: 35px;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+.contact{
+    display: flex;
+}
+
+.contact-box{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid lawngreen;
+    border-radius: 8px;
+}
+
+.contact-box:hover{
+    border: 2px solid green;
+    background-color: lightgray;
+    transition-duration: 1s;
+}
+
+.contact-box img{
+    object-fit: cover;
+    padding: 5px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*.contact-form-all{*/
+/*    padding: 8px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);*/
+/*    -webkit-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);*/
+/*    -moz-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);*/
+/*}*/
+
+/*.contact-form-image img{*/
+/*    height: 600px;*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);*/
+/*    -webkit-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);*/
+/*    -moz-box-shadow: 12px 11px 10px 0px rgba(0,0,0,0.25);*/
+/*}*/
+
+/*.contact-form input{*/
+/*    height: 50px;*/
+/*    border-radius: 10px;*/
+/*    margin-top: 10px;*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.contact-form textarea{*/
+/*    border-radius: 10px;*/
+/*    margin-top: 10px;*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.custom-select-tag{*/
+/*    height: 50px;*/
+/*    border-radius: 10px;*/
+/*    margin-top: 10px;*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.button-submit p{*/
+/*    background-color: black;*/
+/*    padding: 10px;*/
+/*    border-radius: 20px;*/
+/*    color: white;*/
+/*    width: 40%;*/
+/*    cursor: pointer;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: 15px auto 0;*/
+/*    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif*/
+/*}*/
+
+/*.button-submit p:hover{*/
+/*    background-color: #61dafb;*/
+/*    transition-duration: 0.7s;*/
+/*    color: black;*/
+/*}*/

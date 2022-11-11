@@ -1,0 +1,37 @@
+.sidebar-profile-picture img{
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    vertical-align: middle;
+    margin: 0 auto;
+    border: 3px solid #05386b;
+}
+
+.navbar-items ul li{
+    color: #05386b;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.navbar-items ul li svg{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.navbar-items-icon-only ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.navbar-items ul li a{
+    text-decoration: none;
+}
+
+.nav-item .active{
+    border-left: 3px solid black;
+    color: black;
+}
