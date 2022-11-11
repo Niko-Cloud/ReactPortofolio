@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css";
 import Typewriter from 'typewriter-effect';
-import CV from "./Test.pdf";
+import CV from "./CV.pdf";
 import { MdDarkMode,MdLightMode} from "react-icons/md";
 import Fade from 'react-reveal/Fade';
 
