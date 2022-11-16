@@ -24,6 +24,26 @@ const Project = () => {
                     techname: "Firebase"
                 }
             ]
+        },
+        {
+            name: "Vidly Backend",
+            Desc: "Pure NodeJs backend, without any of frontend, made from Mosh tutorial node,js" +
+                "You can click the live demo button to redirect you into github repositories of this project",
+            ProjectLink: "https://github.com/Niko-Cloud/Node-JS-Vidly",
+            techused: [
+                {
+                    techname: "NodeJs"
+                },
+                {
+                    techname: "Express"
+                },
+                {
+                    techname: "MongoDB"
+                },
+                {
+                    techname: "Javascript"
+                }
+            ]
         }
     ]
     return (
