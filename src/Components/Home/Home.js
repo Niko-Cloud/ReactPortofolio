@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Home.css";
 import Typewriter from 'typewriter-effect';
-import CV from "./CV.pdf";
 import { MdDarkMode,MdLightMode} from "react-icons/md";
 import Fade from 'react-reveal/Fade';
 
@@ -31,7 +30,7 @@ const Home = ({theme,changeTheme}) => {
                       Hire Me
                   </div>
                   <div className="get-resume-button">
-                      <a href={CV} download="MyCV.pdf">
+                      <a href="https://drive.google.com/drive/u/0/folders/11US1Azn-M0TSihDxTQLrBkdcqfQLOwuf" target="_blank" rel="noreferrer">
                           Get Resume
                       </a>
                   </div>
