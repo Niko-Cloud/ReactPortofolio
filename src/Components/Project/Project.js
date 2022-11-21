@@ -7,6 +7,26 @@ import Zoom from 'react-reveal/Zoom';
 const Project = () => {
     const data = [
         {
+            name: "Clustering with Suisei",
+            Desc: "Made this project by myself for my teams using flask and tailwindcss deployed in heroku" +
+                "This web have functionality to cluster 2 features of Bank Authentication from UCI repository",
+            ProjectLink: "https://suisei-app.herokuapp.com",
+            techused: [
+                {
+                    techname: "TailwindCSS"
+                },
+                {
+                    techname: "Flask"
+                },
+                {
+                    techname: "Python"
+                },
+                {
+                    techname: "Notebook"
+                }
+            ]
+        },
+        {
             name: "Realtor Clone",
             Desc: "Simple clone project from website realtor.com. Deployed with local build",
             ProjectLink: "https://realtor-clone-niko-cloud.vercel.app",

@@ -30,7 +30,7 @@ const Home = ({theme,changeTheme}) => {
                       Hire Me
                   </div>
                   <div className="get-resume-button">
-                      <a href="https://drive.google.com/drive/u/0/folders/11US1Azn-M0TSihDxTQLrBkdcqfQLOwuf" target="_blank" rel="noreferrer">
+                      <a href="https://drive.google.com/drive/u/0/folders/1yqkU59923D9AKk1ctAJthidr1kWFSGAI" target="_blank" rel="noreferrer">
                           Get Resume
                       </a>
                   </div>
