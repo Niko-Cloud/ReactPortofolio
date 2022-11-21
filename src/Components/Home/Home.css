@@ -31,6 +31,11 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    
 }
 
+.hire-me-button a{
+    color: #edf5e1;
+    text-decoration: none;
+}
+
 .hire-me-button:hover{ 
     background-color: #8ee4af;
     width: 210px;
@@ -52,6 +57,7 @@
     font-size: 18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    
 }
+
 
 .get-resume-button a{
     text-decoration: none;
